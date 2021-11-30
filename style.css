@@ -1,0 +1,38 @@
+body{
+background-color : black;
+font-family: arial;
+color : white;
+}
+.mainDiv {
+    background-color: white;
+    color:black;
+   padding : 20px;
+   width: 550px; 
+    border-radius:25px;
+}
+h1{
+color : gray;
+font-family : verdana;
+}
+
+#principal{
+    height: 25px;
+    width: 190px;
+}
+
+#years{
+    height: 35px;
+    width: 200px;
+}
+
+#footer
+{
+    margin-top: 10px;
+}
+
+
+
+.highlight
+{
+    background-color: #ffff00;
+}

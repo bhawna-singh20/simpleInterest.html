@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Simple interest</title>
+ </head>
+ <body>
+  <center><div class="mainDiv">
+  <h1>Calculate simple interest</h1>
+  <table>
+  <tbody>
+  <tr>
+  <td>Amount : 
+  <input type="number" id="principal"></td></tr>
+<tr>
+<td>Interest rate : 
+  <input type="range" id="rate" min="1" max="20" step="0.25" val="10.5" name="rate" onchange="updateRate()">
+  <span id="rate_val">
+	10.5%
+  </span></td></tr>
+<tr>
+<td>No. of Year :
+  <select  id="years">
+    <option value="1">1</option>
+    <option value="2">2</option>
+	<option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  </td></tr>
+   <tr>
+  <td><button id="compute" onclick="compute()">Compute</button></br>
+  <span id="result">
+   </span></td></tr>
+   </tbody></table>
+   <footer>
+			&#169; This Calculator belongs to Bhawna Singh
+</footer>
+
+  </div></center>
+ </body>
+</html>
